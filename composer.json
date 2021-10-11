@@ -1,0 +1,20 @@
+{
+    "name": "project/metro_market_assessement",
+    "description": "hatem feel cool its just a test",
+    "require": {
+        "monolog/monolog": "^2.3",
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Hatem BEN HAMZA",
+            "email": "hatembenhamzacrk09@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Classes\\" : "src/classes",
+            "Interfaces\\" : "src/interfaces"
+        }
+    }
+}
